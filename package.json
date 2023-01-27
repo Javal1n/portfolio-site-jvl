@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon next dev",
+    "dev": "nodemon",
     "build": "next build",
-    "start": "nodemon next start",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
