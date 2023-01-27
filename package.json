@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "nodemon next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "nodemon": "^2.0.20",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
   }
