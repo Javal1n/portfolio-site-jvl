@@ -5,15 +5,15 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
-import design from "../public/design.png";
 import glasses from "../public/glasses.png";
 import code from "../public/code.png";
-import tlf from "../public/tlf-screenshot.png";
-import closingPacks from "../public/closing-packs.png";
+import tlfNew from "../public/tlfnew.png";
+import onePage from "../public/onepage.png";
+import closingPacks from "../public/closingpacksnew.png";
 import dojoPrototype from "../public/dojo-prototype.png";
 import musicStyleGuide from "../public/music-styleguide.png";
 import mobileClosingPacks from "../public/mobile-closingpacks.png";
-import mobileTLF from "../public/mobile-tlf.png";
+import styleGuideOnePage from "../public/styleguideonepage.png";
 
 import { useState } from "react";
 
@@ -47,8 +47,8 @@ export default function Home() {
               <li>
                 <a
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="/downloads/JordonvanLeenen_Resume 2023.pdf"
-                  download="JordonvanLeenen_Resume 2023.pdf"
+                  href="https://docs.google.com/document/d/1HBRNDHEmXIAvb-Zq8TIbetrpgH_dqUFulR_JAfuol38/edit?usp=sharing"
+                  target="_blank"
                 >
                   Resume
                 </a>
@@ -105,7 +105,7 @@ export default function Home() {
               collaborator. <br />
               <span className="text-teal-500">Hungry</span> to impact with
               <span className="text-teal-500"> positive</span> energy and work
-              ethic. <br /> Click one of the media icons above to see a{" "}
+              ethic. <br /> Click one of the media icons to see a{" "}
               <span className="text-teal-500">diverse</span> range of projects
               and work history.
             </p>
@@ -122,9 +122,7 @@ export default function Home() {
                 Beautiful Designs
               </h3>
               <h4 className="text-teal-600 py-4">Design tools I use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-200">
-                Illustrator
-              </p>
+              <p className="text-gray-800 py-1 dark:text-gray-200">Adobe XD</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">Figma</p>
             </div>
             <div className="bg-gray-95 text-center shadow-md p-10 rounded-xl my-10 flex-1 dark:shadow-white">
@@ -142,15 +140,27 @@ export default function Home() {
         <section className="py-10">
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
+              <h1 className="text-lg dark:text-gray-300">
+                TLF Apparel: Designed and Coded
+              </h1>
+              <h2 className="pt-1 pb-2 text-gray-600 dark:text-gray-300">
+                HTML5 - Javascript - scss
+              </h2>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={tlf}
+                src={tlfNew}
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h1 className="text-lg dark:text-gray-300">
+                Closing Packs: Designed and Coded
+              </h1>
+              <h2 className="pt-1 pb-2 text-gray-600 dark:text-gray-300">
+                HTML5 - Javascript - scss
+              </h2>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -160,6 +170,10 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h1 className="text-lg dark:text-gray-300">Dojo: Designed</h1>
+              <h2 className="pt-1 pb-2 text-gray-600 dark:text-gray-300">
+                Adobe XD
+              </h2>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -169,6 +183,12 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h1 className="text-lg dark:text-gray-300">
+                Music App Style Guide: Designed
+              </h1>
+              <h2 className="pt-1 pb-2 text-gray-600 dark:text-gray-300">
+                Adobe XD
+              </h2>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -178,21 +198,33 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h1 className="text-lg dark:text-gray-300">
+                One Page Checkout Style Guide: Designed
+              </h1>
+              <h2 className="pt-1 pb-2 text-gray-600 dark:text-gray-300">
+                Figma
+              </h2>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={mobileClosingPacks}
+                src={styleGuideOnePage}
               />
             </div>
             <div className="basis-1/3 flex-1">
+              <h1 className="text-lg dark:text-gray-300">
+                One Page Checkout: Designed
+              </h1>
+              <h2 className="pt-1 pb-2 text-gray-600 dark:text-gray-300">
+                Figma
+              </h2>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={mobileTLF}
+                src={onePage}
               />
             </div>
           </div>
