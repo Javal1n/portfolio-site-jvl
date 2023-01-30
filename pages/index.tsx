@@ -73,13 +73,13 @@ export default function Home() {
               Mobile Apps
             </p>
             <p className="text-sm leading-8 text-gray-600 md:text-xl max-w-xl mx-auto dark:text-gray-300">
-              [Java, Swift, Javascript, C#, React Native,Typescript]
+              [Java, Swift, Javascript, C#, React Native, Typescript]
             </p>
             <p className="font-semibold text-md mt-3 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-300">
               Web
             </p>
             <p className="text-sm leading-8 text-gray-600 md:text-xl max-w-xl mx-auto dark:text-gray-300">
-              [Shopify, React, Javascript,Liquid, HTML, scss/css]
+              [Shopify, React, Javascript, Liquid, HTML, scss/css]
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 mt-10 text-gray-600">
